@@ -1,0 +1,11 @@
+body {
+    margin: 23px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px darkblue dashed;
+    background-color: bisque;
+}
+html {
+    background-color: black;
+    
+}
