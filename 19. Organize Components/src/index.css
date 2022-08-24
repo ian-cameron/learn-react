@@ -1,0 +1,40 @@
+#root {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-image: linear-gradient(to top right,violet, indigo, blue, green, yellow, orange, red);
+}
+
+html {
+    background-color: black;
+}
+
+.nav-items {
+    display: flex;
+    list-style: none;
+}
+
+.nav-items > li {
+    padding-right: 1rem;
+}
+
+.nav {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    border-bottom: .2rem;
+    border-bottom-style: double;
+    background-image: linear-gradient(to bottom right, Red, orange, yellow, green, blue, indigo, violet);
+}
+
+.nav img {
+    width: 4rem;
+    padding: 1rem;
+}
+
+.main {
+    padding: 1rem;
+    flex: 1 0 auto;
+    min-height: auto;
+}
